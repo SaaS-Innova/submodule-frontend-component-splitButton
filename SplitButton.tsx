@@ -1,7 +1,7 @@
 import { SplitButton } from "primereact/splitbutton";
-import { ISplitSelectButton } from "./SplitSelectButton.model";
+import { ISplitButton } from "./SplitButton.model";
 
-export const SplitSelectButton = (props: ISplitSelectButton) => {
+export const SplitButton = (props: ISplitButton) => {
   const { handleChange, label = "", modelItem, icon, severity } = props;
 
   return (
@@ -15,4 +15,4 @@ export const SplitSelectButton = (props: ISplitSelectButton) => {
   );
 };
 
-export default SplitSelectButton;
+export default SplitButton;

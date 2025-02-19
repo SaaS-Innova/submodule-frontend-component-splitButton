@@ -1,7 +1,7 @@
 import { MenuItem } from "primereact/menuitem";
 import React from "react";
 
-export interface ISplitSelectButton {
+export interface ISplitButton {
   handleChange: (e: React.MouseEvent<HTMLElement>) => void;
   label: string;
   modelItem?: MenuItem[];
